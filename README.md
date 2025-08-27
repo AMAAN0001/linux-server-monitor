@@ -1,16 +1,15 @@
-# linux-server-monitor
-# Linux Server Health Monitoring Script
+# Linux Server Monitor
 
-This Bash script monitors:
-- Disk usage
-- Memory usage
-- Top CPU-consuming processes
-- Logged-in users
+A lightweight server monitoring tool built with Bash and Python.  
+It tracks **CPU, memory, disk, and network usage** in real time and logs them for later analysis.  
 
-Output is saved in: `/var/log/system_health.log`
+## Features
+- Real-time monitoring
+- Configurable thresholds
+- Alerts when resource usage is high
+- Logs stored for auditing
 
-## Usage
-
+## How to Run
 ```bash
-chmod +x system_health.sh
-./system_health.sh
+chmod +x monitor.sh
+./monitor.sh
