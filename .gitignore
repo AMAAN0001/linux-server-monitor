@@ -1,0 +1,6 @@
+```gitignore
+logs/
+*.log
+*.pyc
+__pycache__/
+.DS_Store
